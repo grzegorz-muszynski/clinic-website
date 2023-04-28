@@ -1,0 +1,15 @@
+.Footer {
+    font-family: kelson;
+    background-color: hsl(191, 100%, 75%);
+    height: 40px;
+    line-height: 40px;
+}
+.Footer::before {
+    content: 'Copyright 2023 © Medical-Vita - NZOZ Zespół Gabinetów Lekarskich';
+    margin-left: 8px;
+}
+.Footer::after {
+    content: 'Realizacja ARDEO Grzegorz Muszyński';
+    float: right;
+    margin-right: 8px;
+}
