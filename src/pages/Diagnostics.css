@@ -1,0 +1,38 @@
+.Diagnostics {
+    width: 615px;
+    margin: 5px auto;
+}
+.Diagnostics h1 {
+    font-family: kelson;
+    text-decoration: underline;
+    text-underline-offset: 10px;
+    text-align: center;
+}
+.Diagnostics p {
+    text-indent: 30px;
+}
+/* .Diagnostics:nth-child(1) {
+    margin-bottom: 60px;
+} */
+.Diagnostics__wrapper {
+    width: 615px;
+    margin: 10px auto;
+}
+.Diagnostics__wrapper img {
+    height: 200px;
+    width: 300px;
+    /* float: left; */
+}
+.Diagnostics__wrapper p {
+    width: 299px;
+    float: right;
+    /* margin-right: 80px; */
+}
+.Diagnostics__wrapper span {
+    font-weight: 600;
+}
+.Diagnostics__wrapper p a {
+    color: black;
+    font-weight: 600;
+    text-decoration: none;
+}

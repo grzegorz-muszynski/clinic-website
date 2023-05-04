@@ -33,7 +33,7 @@ export default function Clinics() {
                 <DoctorWindow
                     id='4'
                     image="womanDoctor.jpg" 
-                    name="Lek. med. Jolanta Kowal " 
+                    name="Lek. med. Joanna Kowal " 
                     spec="Okulista" 
                     desc="Ukończyła studia medyczne na II Wydziale Lekarskim Akademii Medycznej w Warszawi..."
                 />

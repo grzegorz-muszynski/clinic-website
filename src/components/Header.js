@@ -16,7 +16,7 @@ export default function Header() {
                 <li><NavLink to='/'>O nas</NavLink></li>
                 <li><NavLink to='/clinics'>Gabinety lekarskie</NavLink></li>
                 <li><NavLink to='/diagnostics'>Diagnostyka</NavLink></li>
-                <li><NavLink to='/forpatient'>Do poczytania</NavLink></li>
+                {/* <li><NavLink to='/forpatient'>Do poczytania</NavLink></li> */}
                 <li><NavLink to='/contact'>Kontakt</NavLink></li>
             </ul>
         </div>

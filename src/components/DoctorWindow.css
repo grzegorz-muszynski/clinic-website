@@ -44,14 +44,9 @@
     font-size: 14px;
     text-decoration: none;    
     border-radius: 5px;
-    /* border: 1px solid white; */
     border: 0;
     height: 30px;
-    /* width: 100%; */
-    /* width: 80px; */
     width: 100%;
-    /* display: block; */
-    /* margin: 20px auto; */
     background-color: hsl(191, 100%, 55%);
     color: white;
 }

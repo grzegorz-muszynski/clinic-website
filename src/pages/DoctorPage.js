@@ -14,23 +14,20 @@ const biogram = <>
 
         <p>W 2017 roku uczestniczył w XIX Międzynarodowym Kongresie Medycyny Hiperbarycznej.</p>
     </>
-{/* <h3>SPECJALISTA CHORÓW WEWNĘTRZNYCH</h3> */}
-
 
 export default function DoctorPage() {
     const { id } = useParams();
     
     return (
-            <div className='DoctorPage'>
-                <img src={DoctorPic} alt="Doctor's picture" />
-                <div className='DoctorPage__bio'>
-                    {biogram}
-                </div>
-                <div className="DoctorPage__buttons-wrapper">
-                    <button><NavLink to='/Contact'>Umów wizytę</NavLink></button>
-                    <button><NavLink to='/clinics'>Wróć do listy</NavLink></button>
-                </div>
+        <div className='DoctorPage'>
+            <img src={DoctorPic} alt="Doctor's picture" />
+            <div className='DoctorPage__bio'>
+                {biogram}
             </div>
-        )
-    }
-// </div>
+            <div className="DoctorPage__buttons-wrapper">
+                <button><NavLink to='/Contact'>Umów wizytę</NavLink></button>
+                <button><NavLink to='/clinics'>Wróć do listy</NavLink></button>
+            </div>
+        </div>
+    )
+}
