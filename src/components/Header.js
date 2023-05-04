@@ -2,13 +2,15 @@
 import React, { useState, useEffect, useRef } from 'react';
 import { NavLink } from 'react-router-dom';
 import './Header.css';
+import wallpaper from '../assets/two-doctors.jpg'
+import logo from '../assets/logo_medicalvita.png'
 
 export default function Header() {
     return (
         <div className='Header'>
-            <img className='wallpaper' src='./assets/two-doctors.jpg'></img>
+            <img className='wallpaper' src={wallpaper}></img>
 
-            <img className='logo' src='./assets/logo_medicalvita.png'></img>
+            <img className='logo' src={logo}></img>
 
             <ul className='Header__navbar'>
                 <li><NavLink to='/'>O nas</NavLink></li>

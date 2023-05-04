@@ -1,1 +1,11 @@
+.About {
+    font-family: kelson;
+    width: 800px;
+    margin: 0 auto;
+}
 
+.About p {
+    /* text-align: justify; */
+    text-align: center;
+    text-indent: 30px;
+}

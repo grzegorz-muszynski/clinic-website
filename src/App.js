@@ -5,6 +5,7 @@ import About from "./pages/About";
 import Clinics from "./pages/Clinics";
 import Contact from "./pages/Contact";
 import Diagnostics from "./pages/Diagnostics";
+import DoctorPage from "./pages/DoctorPage";
 import Footer from "./components/Footer";
 import ForPatient from "./pages/ForPatient";
 import Header from "./components/Header";
@@ -18,6 +19,7 @@ function App() {
         <Route path='/clinics' element={<Clinics />} />
         <Route path='/contact' element={<Contact />} />
         <Route path='/diagnostics' element={<Diagnostics />} />
+        <Route path='/doctorpage/:id' element={<DoctorPage />} />
         <Route path='/forpatient' element={<ForPatient />} />
       </Routes>
       <Footer />

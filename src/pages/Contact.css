@@ -1,12 +1,37 @@
+.Contact {
+    font-family: kelson;
+    width: 800px;
+    margin: 5px auto;
+    /* border-bottom: 1px solid black; */
+    /* text-decoration: underline; */
+    /* padding-bottom: 3px; */
+}
+.Contact h1 {
+    text-align: center;
+}
 .Contact iframe {
     width: 500px;
     height: 300px;
     border: 1px solid black;
     border-radius: 4px;
 }
-.Contact h1 {
-    font-family: kelson;
-    /* border-bottom: 1px solid black; */
-    /* text-decoration: underline; */
-    /* padding-bottom: 3px; */
+.Contact__data {
+    display: inline-block;
+    /* margin: 0 0 50px 10px; */
+    position: relative;
+    bottom: 50px;
+    left: 20px;
+
+}
+.Contact__data__adress {
+
+}
+.Contact__data__hours,
+.Contact__data__phone {
+    margin-top: 20px;
+}
+.Contact__data__adress :nth-child(1),
+.Contact__data__hours :nth-child(1),
+.Contact__data__phone :nth-child(1) {
+    font-weight: 1000;
 }

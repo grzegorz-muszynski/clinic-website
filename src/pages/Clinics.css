@@ -1,0 +1,10 @@
+.Clinics {
+    width: 1450px;
+    margin: 0 auto;
+}
+.Clinics h1 {
+    font-family: kelson;
+    text-decoration: underline;
+    text-underline-offset: 10px;
+    text-align: center;
+}

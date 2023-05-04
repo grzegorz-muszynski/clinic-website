@@ -1,0 +1,63 @@
+.DoctorWindow {
+    font-family: kelson;
+    display: inline-block;
+    /* border: 1px solid red; */
+    /* border-radius: 15px; */
+    height: 550px;
+    width: 350px;
+    margin: 5px;
+}
+.DoctorWindow img {
+    height: 330px;
+    width: 330px;
+    /* border: 1px solid red;  */
+    border-radius: 5px;
+    margin: 10px 10px;
+    object-fit: cover;
+    object-position: top;
+}
+.DoctorWindow div {
+    /* width: 100%; */
+    text-align: center;
+}
+.DoctorWindow__name {
+    font-size: 22px;
+}
+.DoctorWindow__spec {
+    font-size: 18px;
+    margin-top: 5px;
+}
+.DoctorWindow__desc {
+    margin: 25px 10px;
+    /* font-size: 15px; */
+}
+.DoctorWindow .DoctorWindow__btn {
+    margin-top: 15px;
+
+    display: block;
+    /* justify-content: center; */
+    width: 80px;
+    margin: 20px auto;
+}
+.DoctorWindow__btn button {
+    font-family: kelson;
+    font-size: 14px;
+    text-decoration: none;    
+    border-radius: 5px;
+    /* border: 1px solid white; */
+    border: 0;
+    height: 30px;
+    /* width: 100%; */
+    /* width: 80px; */
+    width: 100%;
+    /* display: block; */
+    /* margin: 20px auto; */
+    background-color: hsl(191, 100%, 55%);
+    color: white;
+}
+.DoctorWindow__btn button:hover {
+    cursor: pointer;
+    background-color: white;
+    background-color: hsl(191, 100%, 35%);
+    transition: background-color 0.5s;
+}

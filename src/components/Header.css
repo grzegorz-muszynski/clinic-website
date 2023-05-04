@@ -58,7 +58,8 @@
 }
 .Header__navbar .active {
     background: hsl(0, 0%, 0%, 0.1); 
-    color: hsl(191, 100%, 45%);
+    /* color: hsl(191, 100%, 45%); */
+    color: white;
 }
 /* .Header__navbar .active:hover {
     color: hsl(191, 100%, 30%);

@@ -1,0 +1,52 @@
+.DoctorPage {
+    width: 1200px;
+    margin: 10px auto;
+    /* display: flex; */
+}
+.DoctorPage img {
+    width: 400px;
+    height: 400px;
+    object-fit: cover;
+    object-position: top;
+    float: left;
+}
+.DoctorPage h1 {
+    text-decoration: underline; 
+    text-underline-offset: 10px; 
+    font-family: kelson; 
+}
+.DoctorPage h3 {
+    font-family: kelson; 
+    font-weight: 700;
+    /* font-weight: 500; */
+}
+.DoctorPage p {   
+    text-align: justify;
+}
+.DoctorPage__buttons-wrapper {
+    /* justify-content: center; */
+    width: 260px;
+    margin: 0 auto;
+}
+.DoctorPage button {
+    font-family: kelson;
+    font-size: 14px;
+    width: 120px;
+    height: 30px;
+    border: 0;
+    border-radius: 5px;
+    /* display: inline-block; */
+    margin: 5px;
+    background-color: hsl(191, 100%, 55%);
+}
+.DoctorPage button:hover {
+    cursor: pointer;
+    background-color: white;
+    background-color: hsl(191, 100%, 35%);
+    transition: background-color 0.5s;
+}
+.DoctorPage button a {
+    text-decoration: none;
+    color: white;
+    /* background-color: pink; */
+}
