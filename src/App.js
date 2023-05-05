@@ -7,7 +7,7 @@ import Contact from "./pages/Contact";
 import Diagnostics from "./pages/Diagnostics";
 import DoctorPage from "./pages/DoctorPage";
 import Footer from "./components/Footer";
-import ForPatient from "./pages/ForPatient";
+import JoinUs from "./pages/JoinUs";
 import Header from "./components/Header";
 
 function App() {
@@ -20,7 +20,7 @@ function App() {
         <Route path='/contact' element={<Contact />} />
         <Route path='/diagnostics' element={<Diagnostics />} />
         <Route path='/doctorpage/:id' element={<DoctorPage />} />
-        <Route path='/forpatient' element={<ForPatient />} />
+        <Route path='/joinus' element={<JoinUs />} />
       </Routes>
       <Footer />
     </Router>

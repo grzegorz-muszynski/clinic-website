@@ -1,0 +1,31 @@
+.JoinUs {
+    width: 800px;
+    margin: 10px auto;
+}
+.JoinUs__wrapper {
+    display: flex;
+}
+.JoinUs h1 {
+    text-align: center;
+    font-family: kelson;
+    text-decoration: underline;
+    text-underline-offset: 10px;
+}
+.JoinUs p {
+    text-align: justify;
+}
+.JoinUs p span {
+    font-weight: 700;
+}
+.JoinUs__photo {
+    width: 150px;
+    height: 225px;
+    float: left;
+}
+.JoinUs__text {
+    width: 630px;
+    margin-left: 20px;
+}
+.JoinUs__text :nth-child(1) {
+    text-indent: 40px;
+}

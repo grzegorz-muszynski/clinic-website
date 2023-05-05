@@ -3,8 +3,6 @@ import './Footer.css';
 
 export default function Footer() {
     return (
-        <div className='Footer'>
-            <img className='logo' src='./assets/logo_medicalvita.png'></img>
-        </div>
+        <div className='Footer'></div>
     )
 }

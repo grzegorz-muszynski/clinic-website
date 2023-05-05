@@ -34,5 +34,10 @@
 .Diagnostics__wrapper p a {
     color: black;
     font-weight: 600;
-    text-decoration: none;
+    text-underline-offset: 3px;
+    /* text-decoration: none; */
+}
+.Diagnostics__wrapper p a:hover {
+    color: grey;
+    transition: color 0.5s;
 }
