@@ -25,7 +25,6 @@ export default function DoctorPage() {
     return (
         <div className='DoctorPage'>
             <img src={DoctorPic} alt="Doctor's picture" />
-            {/* <div className='DoctorPage__hours'>{hours}</div> */}
             <div className='DoctorPage__bio'>{biogram}</div>
             <div className="DoctorPage__buttons-wrapper">
                 <button><NavLink to='/Contact'>Umów wizytę</NavLink></button>

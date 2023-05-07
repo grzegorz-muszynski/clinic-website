@@ -6,7 +6,9 @@ export default function Clinics() {
 
     return (
         <div className='Clinics'>
-            <h1>Nasz Zespół</h1>
+            <div className='navbarBackground'></div>
+            {/* <h1 style={isActive ? {color: 'red'} : {}}>Nasz Zespół</h1> */}
+            <h1 >Nasz Zespół</h1>
 
             <div className='Clinics__windows-area'>
                 <DoctorWindow

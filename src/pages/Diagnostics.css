@@ -1,5 +1,5 @@
 .Diagnostics {
-    width: 615px;
+    width: 730px;
     margin: 5px auto;
 }
 .Diagnostics h1 {
@@ -11,22 +11,18 @@
 .Diagnostics p {
     text-indent: 30px;
 }
-/* .Diagnostics:nth-child(1) {
-    margin-bottom: 60px;
-} */
 .Diagnostics__wrapper {
-    width: 615px;
+    width: 715px;
     margin: 10px auto;
 }
 .Diagnostics__wrapper img {
     height: 200px;
     width: 300px;
-    /* float: left; */
 }
 .Diagnostics__wrapper p {
-    width: 299px;
+    width: 380px;
     float: right;
-    /* margin-right: 80px; */
+    margin-right: 20px;
 }
 .Diagnostics__wrapper span {
     font-weight: 600;

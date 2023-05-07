@@ -17,3 +17,29 @@
     text-align: center;
     text-indent: 30px;
 }
+
+.About__btn {
+    display: block;
+    width: 100%;
+    text-decoration: none;    
+}
+.About__btn button {
+    font-family: kelson;
+    font-size: 15px;
+    letter-spacing: 0.05em;
+    /* text-decoration: none;     */
+    border-radius: 15px;
+    border: 0;
+    height: 30px;
+    width: 120px;
+    display: block;
+    margin: 20px auto;
+    background-color: hsl(191, 100%, 55%);
+    color: white;
+}
+.About__btn button:hover {
+    cursor: pointer;
+    background-color: white;
+    background-color: hsl(191, 100%, 35%);
+    transition: background-color 0.5s;
+}

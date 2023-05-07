@@ -2,35 +2,67 @@
     font-family: kelson;
     src: url(../fonts/Armasen-Kelson.otf);
 }
-
-.Header  .wallpaper {
+.wallpaper {
     width: 100%;
     height: 650px;
     object-fit: cover;
     object-position: top;
     opacity: 0.7;
-    top: 0; 
+    top: 0;
+}
+.hidden-wallpaper {
+    display: none;
 }
 .logo {
     width: 400px;
     height: 60px;
-    /* border: 1px solid red; */
     border: none;
     position: absolute;
     top: 10px;
     left: 10px;
 }
+.Header__wrapper {
+    height: 28px;
+    display: flex;
+    position: absolute;
+    top: 18px;
+    right: 50px;
+}
+.Header__wrapper img {
+    width: 28px;
+    height: 28px;
+}
+.Header__wrapper p {
+    /* font-family: kelson; */
+    font-size: 18px;
+    font-weight: 500;
+    height: 28px;
+    /* width: 148px; */
+    padding: 0 8px;
+    margin: 0;
+    line-height: 30px; 
+}
+.facebook {
+    width: 35px;
+    height: 35px;
+    border: none;
+    position: absolute;
+    z-index: 1;
+    top: 14px;
+    right: 10px;
+}
+.facebook img {
+    width: 35px;
+    height: 35px;
+}
 .Header__navbar { 
     position: absolute;
     display: block;
-    /* width: 570px; */
     width: 100%;
-    /* justify-content: center; */
     text-align: center;
     margin: 20px auto;
     z-index: 1;
     top: 0;
-    /* top: -200px; */
 }
 .Header__navbar li {
     display: inline-block;
@@ -39,24 +71,16 @@
 .Header__navbar li a {
     text-decoration: none;
     color: black;
-    /* background: hsl(0, 0%, 0%, 0.1); */
     font-family: kelson;
     font-size: 18px;
     padding: 2px 5px;
     border-radius: 6px;
 }
 .Header__navbar li a:hover {
-    /* color: hsl(0, 0%, 70%); */
     color: hsl(191, 100%, 45%);
     transition: color 0.5s;
-    /* transition: background-color 0.5s; */
-    /* background: hsl(0, 0%, 0%, 0.1); */
 }
 .Header__navbar .active {
     background: hsl(0, 0%, 0%, 0.1); 
-    /* color: hsl(191, 100%, 45%); */
     color: white;
 }
-/* .Header__navbar .active:hover {
-    color: hsl(191, 100%, 30%);
-} */
