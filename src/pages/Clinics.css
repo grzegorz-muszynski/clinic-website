@@ -17,3 +17,36 @@
     text-underline-offset: 10px;
     text-align: center;
 }
+#Clinics__doctors-select {
+    display: block;
+    margin: 10px auto;
+    border: 1px solid black;
+    border-radius: 15px;
+    height: 30px;
+    width: 120px;
+    font-family: kelson;
+    font-size: 15px;
+    line-height: 30px;
+    text-align: center;
+    position: relative;
+    z-index: 3;
+}
+.Clinics__background-bar {
+    width: 800px;
+    height: 60px;
+    line-height: 56px;
+    border-radius: 15px;
+    position: relative;
+    z-index: 2;
+    display: block;
+    margin: 0 auto;
+    top: 55px;    
+    background-color: hsl(0, 0%, 90%);
+}
+.Clinics__background-bar p {
+    width: 150px;   
+    padding-left: calc(50% - 220px);
+}
+.Clinics__windows-area {
+    margin-top: 20px;
+}

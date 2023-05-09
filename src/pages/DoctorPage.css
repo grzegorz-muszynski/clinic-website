@@ -1,5 +1,6 @@
 .DoctorPage {
     width: 1200px;
+    min-height: 400px;
     margin: 10px auto;
     /* display: flex; */
 }
@@ -9,6 +10,7 @@
     object-fit: cover;
     object-position: top;
     float: left;
+    margin-right: 10px;
 }
 .DoctorPage h1 {
     text-decoration: underline; 

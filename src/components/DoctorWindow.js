@@ -9,7 +9,7 @@ export default function DoctorWindow(props) {
             <img src={require('../assets/' + props.image)} />
             <div className='DoctorWindow__name'>{props.name}</div>
             <div className='DoctorWindow__spec'>{props.spec}</div>
-            <div className='DoctorWindow__desc'>{props.desc}</div>
+            <div className='DoctorWindow__desc'>{props.hours}</div>
 
             <NavLink to={`/doctorpage/${props.id}`} className="DoctorWindow__btn">
                 <button>Więcej</button>

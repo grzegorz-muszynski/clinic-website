@@ -1,11 +1,14 @@
 import React from 'react';
+// import { Link } from 'react-router-dom';
 import './Contact.css';
+// import { authorization } from '../assets/Upowaznienie.pdf';
+import * as harold from '../assets/harold.jpg';
 
 export default function Contact() {
 
     return (
         <div className='Contact'>
-            <h1>Zespół Gabinetów Lekarskich Medical-Vita</h1>
+            <h1>Rejestracja w Medical-Vita</h1>
 
             <div className='Contact__requirements'>
                 <p>W przypadku wizyty pierwszorazowej, konieczne jest założenie karty leczenia. Potrzebne dane to:</p>
@@ -16,8 +19,8 @@ export default function Contact() {
                     <li>Numer PESEL</li>
                     <li>Numer telefonu</li>
                 </ul>
-            
-                <p>W dniu przyjęcia do poradni należy wypełnić dokument upoważniający wybranego członka rodziny / bliską Pacjentowi osobę do ewentualnego dostępu do dokumentacji medycznej. W tym celu Klient powinien znać <span>imię, nazwisko, numer PESEL</span> oraz <span>numer telefonu</span> wybranej osoby.</p>
+                
+                <p>W dniu przyjęcia do poradni należy wypełnić <a href={require("../assets/upowaznienie.pdf")} target="_blank" download='Upoważnienie'>dokument</a> upoważniający wybranego członka rodziny, bliską Pacjentowi osobę do ewentualnego dostępu do dokumentacji medycznej. W tym celu Pacjent powinien znać <span>imię, nazwisko, numer PESEL</span> oraz <span>numer telefonu</span> wybranej osoby.</p>
 
             </div>
 
@@ -37,7 +40,6 @@ export default function Contact() {
                 <div className='Contact__data__hours'>
                     <div>Godziny otwarcia:</div>
                     <div>pon-pt: 7:30-18:00</div>
-                    <div>sob: 7:30-13:00</div>
                 </div>
             </div>
         </div>

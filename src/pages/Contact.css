@@ -5,6 +5,8 @@
 }
 .Contact h1 {
     text-align: center;
+    text-decoration: underline;
+    text-underline-offset: 10px;
 }
 .Contact__requirements span {
     font-weight: 800;
