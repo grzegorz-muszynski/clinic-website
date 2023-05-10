@@ -50,3 +50,46 @@
 .Clinics__windows-area {
     margin-top: 20px;
 }
+
+@media(max-width: 1460px) {
+    .Clinics {
+        width: 1080px;
+    }
+}
+@media(max-width: 1110px) {
+    .Clinics {
+        width: 720px;
+    }
+    .Clinics__background-bar {
+        margin-right: 0;
+        width: 100%;
+    }
+}
+@media(max-width: 740px) {
+    .Clinics {
+        width: 380px;
+        margin-top: 180px;
+    }
+    .Clinics h1 {
+        margin-bottom: 0;
+        position: relative;
+        top: 10px;
+    }
+    .Clinics__background-bar {
+        height: 120px;
+        top: 30px;
+    }
+    .Clinics__background-bar p {
+        width: 100%;
+        text-align: center;
+    }
+    #Clinics__doctors-select {
+        position: relative;
+        bottom: 30px;
+    }
+}
+@media(max-width: 400px) {
+    .Clinics {
+        width: 80vw;
+    }
+}

@@ -28,12 +28,34 @@
     font-weight: 600;
 }
 .Diagnostics__wrapper p a {
-    color: black;
+    color: hsl(300, 100%, 25%);
     font-weight: 600;
-    text-underline-offset: 3px;
-    /* text-decoration: none; */
+    text-underline-offset: 2px;
 }
 .Diagnostics__wrapper p a:hover {
-    color: grey;
     transition: color 0.5s;
+    color: hsl(0, 0%, 60%);
+}
+@media (max-width: 740px) {
+    .Diagnostics {
+        width: 90vw;
+    }
+    .Diagnostics p {
+        text-align: center;
+    }
+    .Diagnostics__wrapper {
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+    }
+    .Diagnostics__wrapper p {
+        width: 90%;
+        text-align: center;
+    }
+    .Diagnostics__wrapper img {
+        margin: 0 auto;
+        max-width: 300px;
+        width: 100%;
+        height: 67%;
+    }
 }

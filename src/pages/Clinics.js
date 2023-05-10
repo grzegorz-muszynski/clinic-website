@@ -41,7 +41,7 @@ export default function Clinics() {
     return (
         <div className='Clinics'>
             <div className='navbarBackground'></div>
-            <h1 >Nasz Zespół</h1>
+            <h1>Nasz Zespół</h1>
             <div className='Clinics__background-bar'>
                 <p>Wybierz specjalizację</p>
             </div>

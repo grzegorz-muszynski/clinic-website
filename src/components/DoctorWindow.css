@@ -1,8 +1,6 @@
 .DoctorWindow {
     font-family: kelson;
     display: inline-block;
-    /* border: 1px solid red; */
-    /* border-radius: 15px; */
     height: 550px;
     width: 350px;
     margin: 5px;
@@ -10,14 +8,12 @@
 .DoctorWindow img {
     height: 330px;
     width: 330px;
-    /* border: 1px solid red;  */
     border-radius: 5px;
     margin: 10px 10px;
     object-fit: cover;
     object-position: top;
 }
 .DoctorWindow div {
-    /* width: 100%; */
     text-align: center;
 }
 .DoctorWindow__name {
@@ -29,13 +25,11 @@
 }
 .DoctorWindow__desc {
     margin: 25px 10px;
-    /* font-size: 15px; */
 }
 .DoctorWindow .DoctorWindow__btn {
     margin-top: 15px;
 
     display: block;
-    /* justify-content: center; */
     width: 80px;
     margin: 20px auto;
 }
@@ -55,4 +49,16 @@
     background-color: white;
     background-color: hsl(191, 100%, 35%);
     transition: background-color 0.5s;
+}
+@media(max-width: 400px) {
+    .DoctorWindow {
+        width: 100%;
+        margin: 0;
+    }
+    .DoctorWindow img {
+        width: 96%;
+        margin: 0 auto;
+        display: block;
+        /* margin-left: 2%; */
+    }
 }

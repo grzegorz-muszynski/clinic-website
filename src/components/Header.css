@@ -2,6 +2,9 @@
     font-family: kelson;
     src: url(../fonts/Armasen-Kelson.otf);
 }
+.Header__modal__close {
+    display: none;
+}
 .wallpaper {
     width: 100%;
     height: 650px;
@@ -13,13 +16,16 @@
 .hidden-wallpaper {
     display: none;
 }
-.logo {
+#logo {
     width: 400px;
     height: 60px;
     border: none;
     position: absolute;
     top: 10px;
     left: 10px;
+}
+.Header__menu-btn {
+    display: none;
 }
 .Header__wrapper {
     height: 28px;
@@ -33,16 +39,14 @@
     height: 28px;
 }
 .Header__wrapper p {
-    /* font-family: kelson; */
     font-size: 18px;
     font-weight: 500;
     height: 28px;
-    /* width: 148px; */
     padding: 0 8px;
     margin: 0;
     line-height: 30px; 
 }
-.facebook {
+#facebook {
     width: 35px;
     height: 35px;
     border: none;
@@ -51,9 +55,16 @@
     top: 14px;
     right: 10px;
 }
-.facebook img {
+#facebook img {
     width: 35px;
     height: 35px;
+}
+a#facebook:hover {
+    background-color: hsl(0, 0%, 30%, 0.3);
+    border-radius: 17.5px;
+}
+#facebook-long {
+    display: none;
 }
 .Header__navbar { 
     position: absolute;
@@ -83,4 +94,188 @@
 .Header__navbar .active {
     background: hsl(0, 0%, 0%, 0.1); 
     color: white;
+}
+
+@media (max-width: 1380px) {
+    #logo {
+        width: 300px;
+        height: 45px;
+    }
+    .wallpaper {
+        height: 45vw;
+    }
+}
+@media (max-width: 1170px) {
+    #logo {
+        margin-top: 3px;
+        width: 240px;
+        height: 36px;
+    }
+    .Header__navbar li {
+        padding: 0 6px;
+    }
+    #facebook {
+        display: none;
+    }
+    .Header__wrapper {
+        right: 5px;
+    }
+}
+@media (max-width: 1050px) {
+    .Header__modal {
+        background-color: hsl(0, 0%, 90%);
+        position: fixed;
+        width: 100vw;
+        height: 110vh;
+        z-index: 5;
+        transition: display 1s;
+    }
+    .Header__modal__close {
+        width: 60px;
+        padding: 20px;
+        border-radius: 25px;
+        position: relative;
+        display: block;
+        float: right;
+        animation: fade-in 500ms forwards;
+        cursor: grab;
+    }
+    .hidden {
+        display: none;
+    }
+    .Header__modal__close:hover {
+        background-color: hsl(0, 0%, 40%);
+        transition: background-color 1s;
+    }
+    .Header__navbar {
+        z-index: 6;
+        margin-top: 79px;
+    }
+    .Header__navbar li {
+        display: block;
+        text-align: left;
+        margin-top: 5px;
+    }
+    .Header__navbar li a {
+        border-radius: 15px;
+        font-size: 60px;
+    }
+    #facebook-long {
+        display: block;
+    }
+    #facebook-long img {
+        height: 45px;
+        margin-right: 3px;
+        display: inline-block;
+    }
+    #facebook-long p {
+        line-height: 50px;
+        font-size: 40px;
+        display: inline-block;
+        margin: 0;
+        position: relative;
+        bottom: 6px;
+    }
+    .Header__menu-btn {
+        display: block;
+        position: absolute;
+        top: 16px;
+        font-size: 22px;
+        font-weight: 600;
+        background: hsl(0, 0%, 10%, 0.15);
+        margin-left: 45%;
+        padding: 5px 10px;
+        border-radius: 10px;
+        cursor: grab;
+    }
+    .Header__menu-btn:hover {
+        background-color: hsl(0, 0%, 10%, 0.45);
+        transition: background-color 0.5s;
+        color: hsl(0, 0%, 90%);
+        transition: color 0.5s;
+    }
+}
+
+@media (max-width: 700px) {
+    .wallpaper {
+        margin-top: 210px;
+        /* height: 250px; */
+    }
+    #logo {
+        width: 300px;
+        height: 45px;
+        display: block;
+        margin-left: calc(50% - 150px);
+    }
+    .Header__wrapper {
+        right: calc(50% - 92px);
+        top: 80px;
+
+        padding: 4px;
+        /* border: 1px solid black; */
+        border-top: 1px solid black;
+        border-bottom: 1px solid black;
+        /* border-radius: 5px; */
+    }
+    .Header__menu-btn {
+        top: 140px;
+        margin-left: calc(50% - 39px);
+    }
+}
+@media (max-width: 700px) {
+    .Header__navbar li a {
+        font-size: 40px;
+    }
+    #facebook-long img {
+        margin-top: 10px;
+        height: 35px;
+    }
+    #facebook-long p {
+        font-size: 30px;
+    }
+}
+@media (max-width: 420px) {
+    .Header__navbar {
+        padding-left: 10px;
+    }
+    .Header__navbar li a {
+        font-size: 30px;
+    }
+    #facebook-long img {
+        margin-top: 7px;
+        height: 28px;
+    }
+    #facebook-long p {
+        font-size: 20px;
+    }
+    .Header__modal__close {
+        width: 40px;
+        padding: 10px;
+        border-radius: 10px;
+    }
+}
+@media (max-width: 330px) {
+    #logo {
+        width: 90vw;
+        height: 14vw;
+        margin-left: 0;
+    }
+    .Header__navbar {
+        margin-top: 40px;
+    }
+    .Header__navbar li a {
+        font-size: 20px;
+    }
+    #facebook-long img {
+        margin-top: 0px;
+        height: 22px;
+    }
+    #facebook-long p {
+        font-size: 15px;
+    }
+    .Header__modal__close {
+        width: 30px;
+        padding: 10px;
+        border-radius: 10px;
+    }
 }

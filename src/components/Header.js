@@ -7,25 +7,83 @@ import logo from '../assets/logo_medicalvita.png';
 import facebook from '../assets/facebook.png';
 
 export default function Header() {
+    let [showNavbar, setShowNavbar] = useState(false);
     const location = useLocation();
 
-   // {console.log(typeof location.pathname)}
+    const handleClosing = () => {
+        setShowNavbar(false);
+    }
+
+    const handleOpening = () => {
+        setShowNavbar(true);
+    }
 
     return (
         <div className='Header'>
-            {/* <img className='wallpaper' src={wallpaper}></img> */}
+            <div className={showNavbar ? 
+                "Header__modal" : 
+                "Header__modal hidden"
+            }>
+                <img 
+                    className="Header__modal__close"
+                    src={require('../assets/cross.png')} 
+                    onClick={handleClosing}
+                    alt='close button'
+                />
+            </div>
+
             <img className={
                 location.pathname === '/clinics' ? 'hidden-wallpaper' : 'wallpaper'} src={wallpaper}
             />
 
-            <img className='logo' src={logo}></img>
+            <img id='logo' src={logo}></img>
 
-            <ul className='Header__navbar'>
-                <li><NavLink to='/'>O nas</NavLink></li>
-                <li><NavLink to='/clinics'>Gabinety lekarskie</NavLink></li>
-                <li><NavLink to='/diagnostics'>Diagnostyka</NavLink></li>
-                <li><NavLink to='/joinus'>Dołącz do nas</NavLink></li>
-                <li><NavLink to='/contact'>Kontakt</NavLink></li>
+            <div 
+                className='Header__menu-btn'
+                onClick={handleOpening}
+            >Menu</div>
+
+            <ul className={showNavbar ? 
+                "Header__navbar" : 
+                "Header__navbar hidden"
+            }>
+            {/* <ul className="Header__navbar" style={showNavbar ? {display: "block"} : {display: "none"}}> */}
+                <li>
+                    <NavLink 
+                        onClick={handleClosing}
+                        to='/'>O nas
+                    </NavLink>
+                </li>
+                <li>
+                    <NavLink 
+                        onClick={handleClosing}
+                        to='/clinics'>Gabinety lekarskie
+                    </NavLink>
+                </li>
+                <li>
+                    <NavLink 
+                        onClick={handleClosing}
+                        to='/diagnostics'>Diagnostyka
+                    </NavLink>
+                </li>
+                <li>
+                    <NavLink 
+                        onClick={handleClosing}
+                        to='/joinus'>Dołącz do nas
+                    </NavLink>
+                </li>
+                <li>
+                    <NavLink 
+                        onClick={handleClosing}
+                        to='/contact'>Kontakt
+                    </NavLink>
+                </li>
+                <li id='facebook-long'>
+                    <a href='https://www.facebook.com/profile.php?id=100063722116351'>
+                        <img src={require('../assets/facebook3.png')}></img>
+                        <p>Facebook</p>
+                    </a>
+                </li>
             </ul>
 
             <div className='Header__wrapper'>
@@ -34,7 +92,7 @@ export default function Header() {
             </div>
 
 
-            <a className='facebook' href='https://www.facebook.com/profile.php?id=100063722116351'>
+            <a id='facebook' href='https://www.facebook.com/profile.php?id=100063722116351'>
                 <img 
                     src={facebook} alt='facebook'>
                 </img>

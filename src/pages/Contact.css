@@ -11,25 +11,61 @@
 .Contact__requirements span {
     font-weight: 800;
 }
+.Contact__requirements p a {
+    color: hsl(300, 100%, 25%);
+    text-underline-offset: 3px;
+}
+.Contact__requirements p a:hover {
+    transition: color 0.5s;
+    color: hsl(0, 0%, 60%);
+}
 .Contact iframe {
     width: 500px;
     height: 300px;
     border: 1px solid black;
     border-radius: 4px;
 }
-.Contact__data {
+.Contact__wrapper__data {
     display: inline-block;
     position: relative;
     bottom: 50px;
     left: 20px;
 }
-.Contact__data__adress,
-.Contact__data__hours,
-.Contact__data__phone {
+.Contact__wrapper__data__adress,
+.Contact__wrapper__data__hours,
+.Contact__wrapper__data__phone {
     margin-top: 20px;
 }
-.Contact__data__adress :nth-child(1),
-.Contact__data__hours :nth-child(1),
-.Contact__data__phone :nth-child(1) {
+.Contact__wrapper__data__adress :nth-child(1),
+.Contact__wrapper__data__hours :nth-child(1),
+.Contact__wrapper__data__phone :nth-child(1) {
     font-weight: 1000;
+}
+
+@media(max-width: 820px) {
+    .Contact,
+    .Contact h1,
+    .Contact__requirements,
+    .Contact__requirements p,
+    .Contact__requirements ul {
+        width: 80vw;
+    }
+    .Contact__wrapper {
+        display: flex;
+        flex-direction: column-reverse;
+    }
+    .Contact__wrapper__data {
+        bottom: 0px;
+        left: 0px;
+        margin-bottom: 15px;
+        text-align: center;
+    }
+    .Contact__wrapper__data__phone {
+        margin-top: 0;
+    }
+    .Contact__wrapper iframe {
+        margin: 10px auto;
+        max-width: 500px;
+        width: 100%;
+    }
 }
