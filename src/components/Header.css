@@ -125,6 +125,7 @@ a#facebook:hover {
     .Header__modal {
         background-color: hsl(0, 0%, 90%);
         position: fixed;
+        top: 0;
         width: 100vw;
         height: 110vh;
         z-index: 5;
@@ -187,6 +188,9 @@ a#facebook:hover {
         padding: 5px 10px;
         border-radius: 10px;
         cursor: grab;
+
+        background: linear-gradient(180deg, rgba(255, 255, 255, 0.9), rgba(255, 255, 255, 0));
+        backdrop-filter: blur(10px);
     }
     .Header__menu-btn:hover {
         background-color: hsl(0, 0%, 10%, 0.45);
