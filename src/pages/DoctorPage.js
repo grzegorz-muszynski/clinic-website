@@ -15,9 +15,11 @@ export default function DoctorPage() {
             <div className='DoctorPage__bio'>
                 <h1>{doctor[2]}</h1>
                 <h3>{doctor[3]}</h3>
+                {/* <div className='DoctorPage__bio__hours'> */}
                 <h4>Godziny przyjęć</h4>
-                <p>{doctor[4]}</p>
-                {doctor[5]}
+                <p className='DoctorPage__bio__hours__time'>{doctor[4]}</p>
+                {/* </div> */}
+                <div className='DoctorPage__bio__container'>{doctor[5]}</div>
             </div>
             <div className="DoctorPage__buttons-wrapper">
                 <button><NavLink to='/Contact'>Umów wizytę</NavLink></button>
