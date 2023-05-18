@@ -37,15 +37,7 @@ export const doctorsData = [
         'lek. med. Kazimierz Głowacki',
         'Otolaryngolog',
         'Środa od 15:00',
-        <div>
-            <p>Lekarz specjalista chirurg chorób uszu, nosa i gardła, otorynolaryngolog, Regionalny Delegat Europejskiej Akademii Chirurgów Plastyków Twarzy, założyciel i właściciel Centrum Medycznego Krajmed.</p>
-
-            <p>Dr Marek Krajewski jest absolwentem Akademii Medycznej w Warszawie, specjalizuje się w laryngologicznych operacjach endoskopowych. Umiejętności i doświadczenie zawodowe zdobywał m.in. podczas pobytu w RPA, gdzie po uzyskaniu specjalizacji z otorynolaryngologii pełnił funkcję Kierownika Kliniki Otorynolaryngologii Uniwersytetu Medycznego Południowej Afryki, w  Pretorii. Stypendysta z zakresu otologii i neurootologii w Michigan Ear Institute w Detroit (USA), Członek Amerykańskiego Towarzystwa Neurootologicznego oraz innych krajowych i międzynarodowych towarzystw medycznych. Od 2003 roku Delegat Regionalny elitarnej Europejskiej Akademii Chirurgii Plastyków Twarzy. Celem Akademii jest łączenie leczenia funkcjonalnego i kosmetycznego nosa i twarzy. Podczas okresowo organizowanych wspólnych spotkań omawiane są obowiązujące techniki operacyjne i standardy opieki nad pacjentami w zakresie chirurgii plastycznej twarzy (www.eafps.org).</p>
-
-            <p>Punktem zwrotnym w karierze lekarskiej Dr Marka Krajewskiego było pozyskanie praktycznych umiejętności wykonywania zabiegów laryngologicznych metodami endoskopowymi. W 1989 roku Dr Krajewski odbył podstawowy kurs chirurgii endoskopowej pod okiem prof. Stammbergera i kontynuował kształcenie w tym kierunku w 1990 roku na kursie zaawansowanej chirurgii endoskopowej. Od 1990 roku Dr Krajewski zajmuje się praktycznie schorzeniami nosa i gardła, w trakcie diagnostyki i leczenia których wykorzystuje sprzęt endoskopowy.  Największy sukces zawodowy – opracowanie endoskopowej techniki operacji migdałków, która całkowicie (od 1998 roku) wyeliminowała występowanie pierwotnych krwawień pooperacyjnych.</p>
-
-            <p>W 2017 roku uczestniczył w XIX Międzynarodowym Kongresie Medycyny Hiperbarycznej.</p>
-        </div>
+        <div></div>
     ],
     [
         6,
@@ -93,13 +85,13 @@ export const doctorsData = [
         'lek. med. Iwona Krzyżyk',
         'Psychiatra',
         'Czwartek od 17:00',
-        <div>sadfasdf</div>
+        <div></div>
     ],
     [
         12,
         'male.png',
         'lek. med. Zbigniew Szydłowski',
-        'Internista, Medycyna pracy????',
+        'Internista, pozwolenia na broń',
         'Poniedziałek i czwartek od 16:00',
         <div>
             <p>Pozwolenia na broń</p>
