@@ -27,6 +27,7 @@ export default function About() {
                         <li>piersi</li>
                         <li>jamy brzusznej</li>
                         <li>urologiczne</li>
+                        <li>ginekologiczne</li>
                     </ul>
                 </div>
             </div>
