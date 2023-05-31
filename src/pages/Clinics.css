@@ -9,6 +9,7 @@
 }
 .Clinics {
     width: 1450px;
+    min-height: 85vh;
     margin: 90px auto 20px;
 }
 .Clinics h1 {

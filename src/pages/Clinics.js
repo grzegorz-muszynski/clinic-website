@@ -12,7 +12,9 @@ export default function Clinics() {
         setSelected(e.target.value)
         let newList = [];
         doctorsData.forEach(doctor => {
-            if (doctor[3] !== e.target.value) return;
+            if (!doctor[3].includes(e.target.value)) return;
+            // The code below is better as it works for doctors with multiple specialisations like doctor ZS
+            // if (doctor[3] !== e.target.value) return;
             newList.push(
                 <DoctorWindow
                     id={doctor[0]}
@@ -57,6 +59,7 @@ export default function Clinics() {
                 <option value="Onkolog">Onkolog</option>
                 <option value="Otolaryngolog">Otolaryngolog</option>
                 <option value="Urolog">Urolog</option>
+                <option value="Pozwolenia">Pozwolenia</option>
                 <option value="Psychiatra">Psychiatra</option>
             </select>
             <div className='Clinics__windows-area'>{selected === 'Wszyscy' ? fullList : filteredList }</div>            

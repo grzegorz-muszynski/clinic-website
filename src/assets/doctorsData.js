@@ -91,7 +91,7 @@ export const doctorsData = [
         12,
         'male.png',
         'lek. med. Zbigniew Szydłowski',
-        'Internista, pozwolenia na broń',
+        'Internista, Pozwolenia na broń', // if I put here "pozwolenia na broń" the doctor won't be find while using the specialisation selector (the name there won't be exactly the same)
         'Poniedziałek i czwartek od 16:00',
         <div>
             <p>Pozwolenia na broń</p>
