@@ -12,7 +12,7 @@ export default function DoctorWindow(props) {
             <div className='DoctorWindow__desc'>{props.hours}</div>
 
             <NavLink to={`/doctorpage/${props.id}`} className="DoctorWindow__btn">
-                <button>Więcej</button>
+                <button key={`Button no.: ${props.id}`}>Więcej</button>
             </NavLink>
         </div>
     )

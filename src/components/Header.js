@@ -1,5 +1,5 @@
 // import React from 'react';
-import React, { useState, useEffect, useRef } from 'react';
+import React, { useState } from 'react';
 import { NavLink, useLocation } from 'react-router-dom';
 import './Header.css';
 import wallpaper from '../assets/two-doctors.jpg';
@@ -28,7 +28,7 @@ export default function Header() {
                     className="Header__modal__close"
                     src={require('../assets/cross.png')} 
                     onClick={handleClosing}
-                    alt='close button'
+                    alt='Przychodnia - przycisk zamykania'
                 />
             </div>
 
@@ -36,7 +36,7 @@ export default function Header() {
                 location.pathname === '/clinics' ? 'hidden-wallpaper' : 'wallpaper'} src={wallpaper}
             />
 
-            <img id='logo' src={logo}></img>
+            <img id='logo' src={logo} alt='Centrum medyczne | Doktorzy | Miechów'></img>
 
             <div 
                 className='Header__menu-btn'
@@ -47,7 +47,6 @@ export default function Header() {
                 "Header__navbar" : 
                 "Header__navbar hidden"
             }>
-            {/* <ul className="Header__navbar" style={showNavbar ? {display: "block"} : {display: "none"}}> */}
                 <li>
                     <NavLink 
                         onClick={handleClosing}
@@ -80,7 +79,7 @@ export default function Header() {
                 </li>
                 <li id='facebook-long'>
                     <a href='https://www.facebook.com/profile.php?id=100063722116351'>
-                        <img src={require('../assets/facebook3.png')}></img>
+                        <img src={require('../assets/facebook3.png')} alt="Centrum medyczne Miechów"></img>
                         <p>Facebook</p>
                     </a>
                 </li>
@@ -88,7 +87,7 @@ export default function Header() {
 
             <div className='Header__wrapper'>
                 <p>+48 41 383 33 55</p>
-                <img className='telephone' src={require('../assets/telephone.png')} alt='telephone'></img>
+                <img className='telephone' src={require('../assets/telephone.png')} alt='Centrum medyczne Miechów - kontakt telefoniczny'></img>
             </div>
 
 

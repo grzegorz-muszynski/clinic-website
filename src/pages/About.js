@@ -15,11 +15,8 @@ export default function About() {
                 <button>Rejestracja</button>
             </NavLink>
 
-            {/* <h1>Świadczymy</h1> */}
-
             <div className='About__usg'>
                 <img src={require('../assets/usg.jpg')} />
-                {/* firma GEERS */}
                 <div>
                     <p>Dysponujemy profesjonalnym sprzętem. Z nami mogą Państwo wykonać <span>badanie słuchu</span> lub <span>USG</span> m.in.:</p>
                     <ul>
@@ -39,7 +36,7 @@ export default function About() {
             </div>
 
             <div className='About__others'>
-                <img src={require('../assets/odnowa.jpeg')}/>
+                <img src={require('../assets/odnowa.jpeg')} alt='' />
 
                 <p>Szukasz <span>dentysty</span> lub <span>fizjoterapeuty</span>? A może chcesz skorzystać z <a href='https://www.facebook.com/SolariumVacuFit/?locale=pl_PL'>solarium</a> albo <span>leczniczego</span> bądź <span>relaksującego masażu</span> w salonie <a href='https://booksy.com/pl-pl/86946_odnowa_masaz_10052_miechow?do=invite&_branch_match_id=1016433891075084321&utm_medium=merchant_customer_invite&_branch_referrer=H4sIAAAAAAAAA8soKSkottLXT07J0UvKz88urtRLzs%2FVL4wy9K4MMipPrUwCAFgQoA4iAAAA'>ODNOWA</a>? W naszym obiekcie znajdziesz całą gamę usług zdrowotnych. Zadzwoń do nas a chętnie przekierujemy Cię w odpowiednie ręce wykwalifikowanych specjalistów lub odwiedź nas pod adresem <span>A. Mickiewicza 3 w Miechowie</span>.</p>   
             </div>

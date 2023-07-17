@@ -203,7 +203,6 @@ a#facebook:hover {
 @media (max-width: 700px) {
     .wallpaper {
         margin-top: 210px;
-        /* height: 250px; */
     }
     #logo {
         width: 300px;
@@ -214,12 +213,9 @@ a#facebook:hover {
     .Header__wrapper {
         right: calc(50% - 92px);
         top: 80px;
-
         padding: 4px;
-        /* border: 1px solid black; */
         border-top: 1px solid black;
         border-bottom: 1px solid black;
-        /* border-radius: 5px; */
     }
     .Header__menu-btn {
         top: 140px;

@@ -1,14 +1,7 @@
-/* * {
-    border: 1px solid red;
-}
-.DoctorPage__bio__container {
-    background-color: blue;
-} */
 .DoctorPage {
     width: 1200px;
     min-height: 400px;
     margin: 10px auto;
-    /* display: flex; */
 }
 .DoctorPage img {
     width: 400px;
@@ -26,7 +19,6 @@
 .DoctorPage h3 {
     font-family: kelson; 
     font-weight: 700;
-    /* font-weight: 500; */
 }
 .DoctorPage h4 {
     font-family: kelson; 

@@ -1,4 +1,4 @@
-import React, { useState, useEffect, componentDidMount } from 'react';
+import React, { useState } from 'react';
 import './Clinics.css';
 import DoctorWindow from '../components/DoctorWindow';
 import { doctorsData } from '../assets/doctorsData';
@@ -11,12 +11,12 @@ export default function Clinics() {
     const handleChange = (e) => {
         setSelected(e.target.value)
         let newList = [];
-        doctorsData.forEach(doctor => {
+        doctorsData.forEach((doctor, index) => {
             if (!doctor[3].includes(e.target.value)) return;
-            // The code below is better as it works for doctors with multiple specialisations like doctor ZS
-            // if (doctor[3] !== e.target.value) return;
+
             newList.push(
                 <DoctorWindow
+                    key={`Doctor no.: ${index}`}
                     id={doctor[0]}
                     image={doctor[1]}
                     name={doctor[2]}
@@ -28,9 +28,10 @@ export default function Clinics() {
         setFilteredList(newList)
     }
 
-    doctorsData.forEach((doctor) => {
+    doctorsData.forEach((doctor, index) => {
         fullList.push(
             <DoctorWindow
+                key={`Doctor no.: ${index}`}
                 id={doctor[0]}
                 image={doctor[1]}
                 name={doctor[2]}

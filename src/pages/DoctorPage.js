@@ -6,11 +6,10 @@ import { doctorsData } from '../assets/doctorsData';
 export default function DoctorPage() {
     const { id } = useParams();
     const doctor = doctorsData.find(doctor => doctor[0] === Number(id));
-    // id number also is an order number for doctor in the array
 
     return (
         <div className='DoctorPage'>
-            <img src={require(`../assets/` + doctor[1])} alt="Doctor's picture" />
+            <img src={require(`../assets/` + doctor[1])} alt="Doktorzy Miechów" />
             <div className='DoctorPage__bio'>
                 <h1>{doctor[2]}</h1>
                 <h3>{doctor[3]}</h3>
