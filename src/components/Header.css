@@ -70,6 +70,7 @@ a#facebook:hover {
     position: absolute;
     display: block;
     width: 100%;
+    padding: 0;
     text-align: center;
     margin: 20px auto;
     z-index: 1;

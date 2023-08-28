@@ -13,16 +13,18 @@ import Header from "./components/Header";
 function App() {
   return (
     <Router>
-      <Header />
-      <Routes>
-        <Route exact path='/' element={<About />} />
-        <Route path='/clinics' element={<Clinics />} />
-        <Route path='/contact' element={<Contact />} />
-        <Route path='/diagnostics' element={<Diagnostics />} />
-        <Route path='/doctorpage/:id' element={<DoctorPage />} />
-        <Route path='/joinus' element={<JoinUs />} />
-      </Routes>
-      <Footer />
+      <div id="App">
+        <Header />
+        <Routes>
+          <Route exact path='/' element={<About />} />
+          <Route path='/clinics' element={<Clinics />} />
+          <Route path='/contact' element={<Contact />} />
+          <Route path='/diagnostics' element={<Diagnostics />} />
+          <Route path='/doctorpage/:id' element={<DoctorPage />} />
+          <Route path='/joinus' element={<JoinUs />} />
+        </Routes>
+        <Footer />
+      </div>
     </Router>
   );
 }
