@@ -16,17 +16,17 @@ code {
     position: absolute;
     min-height: 100vh;
     width: 100%;
-    padding-bottom: 40px; /* the place for the Footer */
+    padding-bottom: 40px; /* the space for the Footer */
 }
 
 @media(max-width: 800px) {
   #App {
-    padding-bottom: 80px; /* the place for the Footer */
+    padding-bottom: 80px; /* the space for the Footer */
   }
 }
 
 @media(max-width: 490px) {
   #App {
-    padding-bottom: 120px; /* the place for the Footer */
+    padding-bottom: 120px; /* the space for the Footer */
   }
 }
