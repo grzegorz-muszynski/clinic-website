@@ -2,9 +2,9 @@ export const doctorsData = [
     [
         0,
         'female.png',
-        'Lek. med. Teresa Adamek',
+        'Lek. med. Katarzyna Gładysz',
         'Neurolog',
-        'Poniedziałek od 14:15',
+        'Wtorek od 17:00',
         <div></div>
     ],
     [
@@ -97,5 +97,13 @@ export const doctorsData = [
             <p>Pozwolenia na broń</p>
             <p>Badania kierowców, sportowców</p>
         </div>
+    ],
+    [
+        13,
+        'male.png',
+        'lek. Jarosław Latała',
+        'Stomatolog',
+        'Wtorek i środa od 9:00',
+        <div></div>
     ]
 ]
