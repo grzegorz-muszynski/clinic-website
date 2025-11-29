@@ -17,12 +17,12 @@ export default function Contact() {
                     <li>Numer telefonu</li>
                 </ul>
                 
-                <p>W dniu przyjęcia do poradni należy wypełnić <a href={require("../assets/upowaznienie.pdf")} target="_blank" download='Upoważnienie'>dokument</a> upoważniający wybranego członka rodziny, bliską Pacjentowi osobę do ewentualnego dostępu do dokumentacji medycznej. W tym celu Pacjent powinien znać <span>imię, nazwisko, numer PESEL</span> oraz <span>numer telefonu</span> wybranej osoby.</p>
+                <p>W dniu przyjęcia do poradni należy wypełnić <a href={require("../assets/upowaznienie.pdf")} target="_blank" rel="noopener noreferrer" download='Upoważnienie'>dokument</a> upoważniający wybranego członka rodziny, bliską Pacjentowi osobę do ewentualnego dostępu do dokumentacji medycznej. W tym celu Pacjent powinien znać <span>imię, nazwisko, numer PESEL</span> oraz <span>numer telefonu</span> wybranej osoby.</p>
 
             </div>
 
             <div className='Contact__wrapper'>
-                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d5592.322735268756!2d20.02766924372237!3d50.35453948676772!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x4717abda1107bce7%3A0x3700152bba60fbe5!2sZesp%C3%B3%C5%82%20gabinet%C3%B3w%20lekarskich%20w%20Miechowie%20%22Medical%20-%20Vita%22!5e0!3m2!1spl!2spl!4v1682674575004!5m2!1spl!2spl" allowFullScreen="" loading="lazy" referrerPolicy="no-referrer-when-downgrade"></iframe>
+                <iframe title='map' src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d5592.322735268756!2d20.02766924372237!3d50.35453948676772!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x4717abda1107bce7%3A0x3700152bba60fbe5!2sZesp%C3%B3%C5%82%20gabinet%C3%B3w%20lekarskich%20w%20Miechowie%20%22Medical%20-%20Vita%22!5e0!3m2!1spl!2spl!4v1682674575004!5m2!1spl!2spl" allowFullScreen="" loading="lazy" referrerPolicy="no-referrer-when-downgrade"></iframe>
 
                 <div className='Contact__wrapper__data'>
                     <div className='Contact__wrapper__data__phone'>

@@ -32,7 +32,7 @@ export default function Header() {
                 />
             </div>
 
-            <img className={
+            <img alt='Gabinety lekarskie' className={
                 location.pathname === '/clinics' ? 'hidden-wallpaper' : 'wallpaper'} src={wallpaper}
             />
 
