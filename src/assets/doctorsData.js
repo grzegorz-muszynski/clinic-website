@@ -1,7 +1,7 @@
 export const doctorsData = [
     [
         0,
-        'female.png',
+        'female.svg',
         'Lek. med. Katarzyna Gładysz',
         'Neurolog',
         'Wtorek od 17:00',
@@ -9,7 +9,7 @@ export const doctorsData = [
     ],
     [
         1,
-        'female.png',
+        'female.svg',
         'lek. med. Joanna Kowal',
         'Okulista',
         'Poniedziałek od 9:00',
@@ -17,7 +17,7 @@ export const doctorsData = [
     ],
     [
         2,
-        'male.png',
+        'male.svg',
         'lek. med. Grzegorz Chmiel',
         'Nefrolog',
         'Poniedziałek od 17:40',
@@ -25,7 +25,7 @@ export const doctorsData = [
     ],
     [
         3,
-        'male.png',
+        'male.svg',
         'lek. med. Paweł Cenda',
         'Otolaryngolog',
         'Wtorek od 16:00',
@@ -33,7 +33,7 @@ export const doctorsData = [
     ],
     [
         5,
-        'male.png',
+        'male.svg',
         'lek. med. Kazimierz Głowacki',
         'Otolaryngolog',
         'Środa od 15:00',
@@ -41,7 +41,7 @@ export const doctorsData = [
     ],
     [
         6,
-        'male.png',
+        'male.svg',
         'lek. med. Wojciech Kibil',
         'Onkolog',
         'Środa od 15:00',
@@ -49,7 +49,7 @@ export const doctorsData = [
     ],
     [
         7,
-        'male.png',
+        'male.svg',
         'lek. med. Jarosław Jakubiak',
         'Urolog',
         'Środa od 15:00',
@@ -57,7 +57,7 @@ export const doctorsData = [
     ],
     [
         8,
-        'male.png',
+        'male.svg',
         'lek. med. Tadeusz Plinta',
         'Endokrynolog',
         'Środa od 13:00',
@@ -65,7 +65,7 @@ export const doctorsData = [
     ],
     [
         9,
-        'male.png',
+        'male.svg',
         'lek. med. Aleksander Świrek',
         'Ginekolog',
         'Czwartek od 12:00',
@@ -73,7 +73,7 @@ export const doctorsData = [
     ],
     [
         10,
-        'male.png',
+        'male.svg',
         'lek. med. Andrzej Kolano',
         'Kardiolog',
         'Czwartek i piątek od 15:00',
@@ -81,7 +81,7 @@ export const doctorsData = [
     ],
     [
         11,
-        'female.png',
+        'female.svg',
         'lek. med. Iwona Krzyżyk',
         'Psychiatra',
         'Czwartek od 17:00',
@@ -89,7 +89,7 @@ export const doctorsData = [
     ],
     [
         12,
-        'male.png',
+        'male.svg',
         'lek. med. Zbigniew Szydłowski',
         'Internista, Pozwolenia na broń', // if I put here "pozwolenia na broń" the doctor won't be find while using the specialisation selector (the name there won't be exactly the same)
         'Poniedziałek i czwartek od 16:00',
@@ -100,7 +100,7 @@ export const doctorsData = [
     ],
     [
         13,
-        'male.png',
+        'male.svg',
         'lek. stom. Jarosław Latała',
         'Stomatolog',
         'Wtorek i środa od 9:00',
@@ -108,7 +108,7 @@ export const doctorsData = [
     ],
     [
         14,
-        'female.png',
+        'female.svg',
         'mgr Justyna Paciorek',
         'Psycholog',
         'Niestandardowe godziny pracy',
