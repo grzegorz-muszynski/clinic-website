@@ -10,7 +10,7 @@ export const doctorsData = [
     [
         1,
         'female.png',
-        'Dr Joanna Kowal',
+        'lek. med. Joanna Kowal',
         'Okulista',
         'Poniedziałek od 9:00',
         <div></div>
@@ -42,7 +42,7 @@ export const doctorsData = [
     [
         6,
         'male.png',
-        'Dr Wojciech Kibil',
+        'lek. med. Wojciech Kibil',
         'Onkolog',
         'Środa od 15:00',
         <div>Zakres usługi Doktora to m.in. USG Tarczycy, piersi, jamy brzusznej</div>
@@ -104,6 +104,14 @@ export const doctorsData = [
         'lek. Jarosław Latała',
         'Stomatolog',
         'Wtorek i środa od 9:00',
+        <div></div>
+    ],
+    [
+        14,
+        'female.png',
+        'mgr Justyna Paciorek',
+        'Psycholog, medycyna pracy',
+        'Niestandardowe godziny pracy',
         <div></div>
     ]
 ]
