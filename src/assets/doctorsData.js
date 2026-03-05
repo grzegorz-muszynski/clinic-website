@@ -92,7 +92,7 @@ export const doctorsData = [
         'male.svg',
         'lek. med. Zbigniew Szydłowski',
         'Internista, Pozwolenia na broń', // if I put here "pozwolenia na broń" the doctor won't be find while using the specialisation selector (the name there won't be exactly the same)
-        'Poniedziałek i czwartek od 16:00',
+        'Poniedziałek od 16:00',
         <div>
             <p>Pozwolenia na broń</p>
             <p>Badania kierowców, sportowców</p>
