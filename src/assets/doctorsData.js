@@ -76,7 +76,7 @@ export const doctorsData = [
         'male.svg',
         'lek. med. Andrzej Kolano',
         'Kardiolog',
-        'Czwartek i piątek od 15:00',
+        'Czwartek i piątek od 16:00',
         <div></div>
     ],
     [
